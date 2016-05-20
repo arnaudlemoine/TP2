@@ -1,13 +1,16 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: yellow;
+    background-image: url(hippie.jpg);
+    background-size: 100px 100px;
 }
 
 #header
 {
-	background: #ccc;
+	background: #27ff00;
 	padding: 20px;
+    text-align: center;
 }
 
 #header h1 { margin: 0; }
@@ -45,12 +48,13 @@
 
 #edito
 {
-	clear: left;
-	padding: 20px;
+	clear: right;
+    background-color: dodgerblue;
+	padding: 200px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
+	   -webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
+	   -webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
@@ -71,10 +75,12 @@
 {	
 	float: left;
 	width: 40%;
+    color: aqua;
+    background-color: green;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
